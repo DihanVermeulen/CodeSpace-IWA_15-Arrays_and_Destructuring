@@ -30,19 +30,18 @@ const data = {
 // Only edit below
 
 const {
-  lists: [[, firstList]],
-} = data || {};
-
-const result = []
-const {
-  lists: [, [, secondList]],
+  lists: [[, first]],
 } = data || {};
 
 const {
-  lists: [, , [, thirdList]],
+  lists: [, [, second]],
 } = data || {};
 
+const {
+  lists: [, , [, third]],
+} = data || {};
 
+const result = [];
 
 const extractBiggest = () => {
 	if (first[-1] > second[-1]) {
