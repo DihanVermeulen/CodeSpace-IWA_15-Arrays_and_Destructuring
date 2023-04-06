@@ -72,22 +72,22 @@ const extractBiggest = () => {
 
 // Only edit above
 
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
 
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
 
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
-result.push(extractBiggest())
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
+result.push(extractBiggest());
 
-console.log(result)
+console.log(result);
