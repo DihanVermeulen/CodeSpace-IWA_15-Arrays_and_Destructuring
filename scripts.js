@@ -20,12 +20,12 @@ in the following array being logged to the console:
 * Please update the code between the two comments below so that the correct array value is logged. */
 
 const data = {
-	lists: [
-		['first', [15, 11, 13, 7, 5]],
-		['second', [2, 6, 8, 4, 14, 12, 10]],
-		['third', [9, 3, 1]],
-	]
-}
+  lists: [
+    ["first", [15, 11, 13, 7, 5]],
+    ["second", [2, 6, 8, 4, 14, 12, 10]],
+    ["third", [9, 3, 1]],
+  ],
+};
 
 // Only edit below
 
