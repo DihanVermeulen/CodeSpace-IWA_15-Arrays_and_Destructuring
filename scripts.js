@@ -44,16 +44,31 @@ const {
 const result = [];
 
 const extractBiggest = () => {
-	if (first[-1] > second[-1]) {
-		return first
-	}
+  if (first[first.length - 1] > second[second.length - 1]) {
+    /**
+     * Value that is returned from the
+     * popped array at the first {@link first} array
+     */
+    const poppedValue = first.pop();
+    return poppedValue;
+  }
 
-	if (third[-1] < 1) {
-		return second
-	}
-	
-	return third
-}
+  if (third[third.length - 1] < second[second.length - 1]) {
+    /**
+     * Value that is returned from the
+     * popped array at the second {@link second} array
+     */
+    const poppedValue = second.pop();
+    return poppedValue;
+  }
+
+  /**
+   * Value that is returned from the
+   * popped array at the third {@link third} array
+   */
+  const poppedValue = third.pop();
+  return poppedValue;
+};
 
 // Only edit above
 
