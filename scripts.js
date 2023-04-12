@@ -20,6 +20,7 @@ const {
   lists: [, , [, third]],
 } = data || {};
 
+/** Result array that all values are pushed to */
 const result = [];
 
 /**
