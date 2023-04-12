@@ -9,15 +9,7 @@ const data = {
 // Only edit below
 
 const {
-  lists: [[, first]],
-} = data || {};
-
-const {
-  lists: [, [, second]],
-} = data || {};
-
-const {
-  lists: [, , [, third]],
+  lists: [[, first], [, second], [, third]],
 } = data || {};
 
 /** Result array that all values are pushed to */
