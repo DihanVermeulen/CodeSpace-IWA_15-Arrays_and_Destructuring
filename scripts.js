@@ -22,6 +22,10 @@ const {
 
 const result = [];
 
+/**
+ * Extracts the biggest value from each of the arrays
+ * @returns the biggest value between the three arrays
+ */
 const extractBiggest = () => {
   if (first[first.length - 1] > second[second.length - 1]) {
     /**
